@@ -8,6 +8,39 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 id="heading">My<span>Book</span>List</h1>
+	<form id="book-form">
+	  <div class="form-group">
+	    <label for="title">Title</label><br>
+	    <input type="text" id="title" required>
+	  </div>
+	  <div class="form-group">
+	    <label for="author">Author</label><br>
+	    <input type="text" id="author" required>
+	  </div>
+	  <div class="form-group">
+	    <label for="isbn">ISBN#</label><br>
+	    <input type="text" id="isbn" required>
+	  </div>
+	  <input type="submit" value="Add Book" id="submit">
+	</form>
+
+	<table class="table table-striped">
+  <thead>
+    <tr id="table-heading">
+      <th>Title</th>
+      <th>Author</th>
+      <th>ISBN#</th>
+      <th></th> <!-- This is for the clear button -->
+    </tr>
+  </thead>
+		
+  <tbody id="book-list">
+    <!-- Book data will be added here dynamically -->
+  </tbody>
+		
+</table>
+	<hr>
     <script type="text/javascript" src="./script.js">
 </script>
 

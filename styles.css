@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#heading{
+	font-weight:200;
+	font-size:35px;
+	text-align:center;
+}
+#heading>span{
+	color:blue;
+}
+input{
+	width:100%;
+}
+#submit{
+	width:80px;
+	background-color:royalblue;
+	color:white;
+	padding:5px;
+}
+#table-heading th{
+	width:40%;
+	text-align:left;
+}
+.table{
+	margin-top:40px;
+}
